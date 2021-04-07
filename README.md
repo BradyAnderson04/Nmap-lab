@@ -20,7 +20,6 @@ docker exec -it nmaplab /bin/bash
 When you are done:
 
 ```bash
-exit
 docker rm -f nmaplab
 docker system prune -a
 ```
