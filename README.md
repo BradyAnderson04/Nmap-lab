@@ -10,8 +10,7 @@ Steps to get started:
 To start the container:
 
 ```bash
-docker build -t apacheconfig/linux .
-docker run --name=nmaplab -d -p 8080:80 apacheconfig/linux apachectl -D FOREGROUND
+docker run --name=nmaplab -d -p 8080:80 iucscnmap apachectl -D FOREGROUND
 docker exec -it nmaplab /bin/bash
 ```
 
