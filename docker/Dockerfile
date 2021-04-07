@@ -3,14 +3,14 @@ LABEL maintainer="CSC Club @ IU"
 RUN \
 	echo "**** RUNNING FILE ****"
 
-RUN echo "**** INSTALLING DEPENDENCIES ****" \
+RUN echo "**** INSTALLING DEPENDENCIES ****" && \
 	apt-get update && apt-get -y install apache2 \
 	net-tools \
 	curl \
-	apt-utils \
 	nmap \
 	vim \
-	nano
+	nano \
+	tldr
 
 
 
